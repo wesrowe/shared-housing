@@ -1,8 +1,8 @@
 ﻿UID,is_offender,is_smoker,smoker_ok,has_dog,dog_allergy
-X0001,n,y,y,n,n
-X0002,n,n,y,n,n
-X0003,n,n,y,n,n
-X0004,y,y,y,n,y
-X0005,y,n,y,y,y
-X0006,n,y,n,y,n
-X0007,n,n,n,y,n
+X0001,y,y,y,y,n
+X0002,n,y,y,y,n
+X0003,n,y,y,y,n
+X0004,n,y,y,y,n
+X0005,n,y,n,y,n
+X0006,n,y,y,y,n
+X0007,n,n,n,y,y
