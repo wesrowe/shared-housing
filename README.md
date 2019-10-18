@@ -15,8 +15,8 @@ All inputs have been exeternalized to CSV files.
 **PeopleSheet** is expected to contain data from both service providers and individuals seeking roommates. As stated above, columns must correspond correctly to the "roots" in the flags sheet. (Extra columns have no effect on the program.)
 
 For each given root, two columns must exist:
-* *<root>*_has -- ```y``` means person has that attribute.
-* *<root>*_conflict -- ```y``` means person cannot live with someone with that attribute.
+* *[root]*_has -- ```y``` means person has that attribute.
+* *[root]*_conflict -- ```y``` means person cannot live with someone with that attribute.
 
 Care should be taken to validate that nonsense combinations of these paired columns aren't introduced into PeopleSheet, either in fake data (entered into csv) or by the eventual data entry app or survey form. For example, a person with ```dog_has``` set to ```y``` should not also have ```dog_conflict``` set to ```y```. (It may not behave unexpectedly, but it hasn't been tested. And besides, garbage is not good for algorithms anyway.)
 
