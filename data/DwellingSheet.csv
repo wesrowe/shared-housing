@@ -1,2 +1,2 @@
-﻿UID,address,lat,lon,offender_ok
-DW00001,126 S. Vermont,33.99493,-118.468559,n
+﻿UID,address,lat,lon,offender_ok,rooms
+DW00001,126 S. Vermont,33.99493,-118.468559,n,4
